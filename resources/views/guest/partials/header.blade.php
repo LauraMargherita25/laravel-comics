@@ -7,7 +7,7 @@
         <nav>
             <ul>
                 {{-- @foreach ($nav as $navItem)
-                    <li><a href="{{ route($navItem['link']) }}">{{ $navItem['text'] }}</a></li>
+                    <li><a href="{{ $navItem['link'] }}">{{ $navItem['text'] }}</a></li>
                 @endforeach --}}
                 <li><a href="">characters</a></li>
                 <li><a href="">comics</a></li>

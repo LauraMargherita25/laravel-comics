@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
+    @include('guest.partials.header')
     @yield('content')
 </body>
 </html>

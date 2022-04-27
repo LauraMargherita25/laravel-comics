@@ -3,23 +3,33 @@
         <div class="container">
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="">
+                    </div>
                     <a href="">digital comics</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="">
+                    </div>
                     <a href="">dc merchandise</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="">
+                    </div>
                     <a href="">subscription</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="">
+                    </div>
                     <a href="">comic shop locator</a>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('images/buy-dc-power-visa.svg') }}" alt="">
+                    </div>
                     <a href="">dc power visa</a>
                 </li>
             </ul>
@@ -37,11 +47,11 @@
                     <li><a href="#">Games</a></li>
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">News</a></li>
-                </ul>
-                <ul>
                     <h2>shop</h2>
                     <li><a href="#">Shop DC</a></li>
                     <li><a href="#">Shop DC Collectibles</a></li>
+                </ul>
+                <ul>
                 </ul>
                 <ul>
                     <h2>dc</h2>
@@ -67,7 +77,7 @@
                 </ul>
             </div>
             <div class="footer_mid_r">
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                <img src="./images/dc-logo-bg.png" alt="">
             </div>
         </div>
     </div>
@@ -77,11 +87,11 @@
         </div>
         <div class="social">
             <p>follow us</p>
-            <img src="../assets/img/footer-facebook.png" alt="">
-            <img src="../assets/img/footer-twitter.png" alt="">
-            <img src="../assets/img/footer-youtube.png" alt="">
-            <img src="../assets/img/footer-pinterest.png" alt="">
-            <img src="../assets/img/footer-periscope.png" alt="">
+            <img src="./images/footer-facebook.png" alt="">
+            <img src="./images/footer-twitter.png" alt="">
+            <img src="./images/footer-youtube.png" alt="">
+            <img src="./images/footer-pinterest.png" alt="">
+            <img src="./images/footer-periscope.png" alt="">
         </div>
     </div>
   </footer>

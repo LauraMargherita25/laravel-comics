@@ -13,70 +13,51 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     $data = [
-//         'nav' => [
-//             [
-//             'link'=> '#',
-//             'text'=> 'characters'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'comics'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'movies'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'tv'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'games'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'collectibles'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'videos'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'fans'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'news'
-//             ],
-//             [
-//             'link'=> '#',
-//             'text'=> 'shop'
-//             ]
-//         ],
-//     ];
-//     return view('guest.home');
-// });
-
 Route::get('/', function () {
-    $parametri = [
-        'nav' =>  [
+    $data = [
+        'nav' => [
             [
-                'text' => 'About',
-                'link' => 'about' 
+            'link'=> '#',
+            'text'=> 'characters'
             ],
             [
-                'text' => 'Contacts',
-                'link' => 'contacts' 
+            'link'=> '#',
+            'text'=> 'comics'
             ],
             [
-                'text' => 'Our products',
-                'link' => 'products' 
+            'link'=> '#',
+            'text'=> 'movies'
             ],
-        ]
+            [
+            'link'=> '#',
+            'text'=> 'tv'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'games'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'collectibles'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'videos'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'fans'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'news'
+            ],
+            [
+            'link'=> '#',
+            'text'=> 'shop'
+            ]
+        ],
     ];
-    return view('guest.home', $parametri);
-})->name('home');
+    return view('guest.home', $data);
+});
+

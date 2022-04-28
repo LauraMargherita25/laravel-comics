@@ -66,6 +66,10 @@ Route::get('/', function () {
     return view('guest.home', $data);
 })->name('home');
 
-Route::get('/comic', function () {
-    return view('guest.comic');
-});
+Route::get('/comics', function () {
+    return view('guest.comics');
+})->name('comics');
+
+Route::get('/characters', function () {
+    return view('guest.characters');
+})->name('characters');
